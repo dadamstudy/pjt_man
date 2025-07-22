@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+a {text-decoration: none; color: inherit;}
+li {list-style: none;}
+
+#layout {
+  max-width: 400px;
+  margin: auto;
+}
+header {
+  background: #F9E96E;
+  padding: 10px 0;
+}
+header h1 {
+  display: none;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header nav > div {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  margin-top: 135px;
+  height: 0px;
+  overflow: hidden;
+  z-index: 1;
+}
+header nav ul {
+  background: #6DBE48;
+  color: #fff;
+  width: 320px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+}
+header nav ul li {
+  border-bottom: 2px solid #fff;
+  padding: 20px 0;
+}
+header > div {
+  width: 100%;
+  background: #fff;
+  margin: 10px 0;
+}
+header > div img {
+  display: block;
+  margin: auto;
+}
+header button {
+  background: #fff;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #6DBE48;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  background: #6DBE48;
+  padding: 20px;
+}
+main > div {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+}
+main > div > a {
+  display: block;
+  margin-bottom: 30px;
+}
+main > div > a:last-child {
+  width: 100px;
+  padding: 5px;
+  background: #6DBE48;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+main > div > a > img {
+  display: block;
+  margin: auto;
+  width: 320px;
+}
+main h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+main section a {
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+/* 분류 */
+main #category_section ul li {
+  display: flex;
+  padding-bottom: 10px;
+}
+#category_section ul li b {
+  padding-right: 10px;
+  color: #6DBE48;
+}
+main #category_section .subMenu {
+  display: flex;
+}
+main #category_section .subMenu a {
+  display: inline-block;
+  margin: 0;
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+main #category_section h2 {
+  margin: 20px 0;
+}
+main section > div:first-child {
+  border: 1px solid red;
+}
+#category_section .allMenu {
+  background: #6DBE48;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+#category_section h2 {
+  font-weight: normal;
+}
+#category_section h2 span {
+  font-weight: bold;
+  color: #6DBE48;
+  font-size: 2rem;
+}
+
+
+footer {
+  font-size: 0.8rem;
+  color: gray;
+  padding: 20px;
+}
+footer > div:first-child {
+  padding-bottom: 20px;
+}
+footer > ul {
+  padding-bottom: 20px;
+}
+footer > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer > div:last-child a {
+  display: block;
+}
