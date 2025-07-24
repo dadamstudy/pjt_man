@@ -76,10 +76,10 @@ main > div > a {
   display: block;
   margin-bottom: 30px;
 }
-main > div > a img {
+#index main > div > a img {
   border-radius: 15px;
 }
-main > div > a:last-child {
+#index main > div > a:last-child {
   width: 100px;
   padding: 5px;
   background: #6DBE48;
@@ -88,7 +88,7 @@ main > div > a:last-child {
   text-align: center;
   margin: auto;
 }
-main > div > a > img {
+#index main > div > a > img {
   display: block;
   margin: auto;
   width: 320px;
@@ -162,6 +162,89 @@ main section > div:first-child {
 #category_section > div:last-child a img {
   display: block;
   width: 150px;
+}
+
+/* rank.html */
+#rank main b {
+  padding: 5px;
+  background: #6DBE48;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#rank main .rankimages {
+  text-align: center;
+  position: relative;
+  padding: 30px 0;
+}
+#rank main .rankimages p {
+  position: absolute;
+  font-size: 1.5rem;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#rank main .rankimages span {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0 10px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #317711;
+}
+#rank main .rankimages img {
+  width: 300px;
+}
+
+/* magazine.html */
+#magazine main b {
+  padding: 5px;
+  background: #6DBE48;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#magazine main a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* event.html */
+#event main b {
+  padding: 5px;
+  background: #6DBE48;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#event main a {
+  display: block;
+}
+#event main a img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 20px;
 }
 
 footer {
