@@ -76,6 +76,9 @@ main > div > a {
   display: block;
   margin-bottom: 30px;
 }
+main > div > a img {
+  border-radius: 15px;
+}
 main > div > a:last-child {
   width: 100px;
   padding: 5px;
@@ -139,7 +142,27 @@ main section > div:first-child {
   color: #6DBE48;
   font-size: 2rem;
 }
-
+#category_section h2 + div {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  /* border: 1px solid red; */
+}
+#category_section h2 + div a {
+  display: flex;
+}
+#category_section > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+#category_section > div:last-child a {
+  display: block;
+}
+#category_section > div:last-child a img {
+  display: block;
+  width: 150px;
+}
 
 footer {
   font-size: 0.8rem;
